@@ -36,7 +36,7 @@ CREATE TABLE IF NOT EXISTS `Prueba_Django`.`Provincia` (
     REFERENCES `Pais` (`id_pais`)
     ON DELETE CASCADE
     ON UPDATE NO ACTION)
-ENGINE = InnoDB;
+    ENGINE = InnoDB;
 
 
 SET SQL_MODE=@OLD_SQL_MODE;
